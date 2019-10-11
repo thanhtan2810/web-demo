@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-family: Mansalva;
+    font-size: 20px;
+    color: #5d5c61;
+    background-color: white;
+    font-weight: 100px;
+    font-size: 25px;
+   /*phép chữ ghép (ff, fi, fl, v.v.) trong văn bản nhỏ hơn 20px đối với một số phông chữ (ví dụ: Calibri , Candara , Constantia và Corbel của Microsoft hoặc họ phông chữ DejaVu ).*/   
+}
+/* head */
+.logo{
+    width: 269px;
+    float: left;
+    position: relative;
+    top: -8px;
+    left: 84px
+}
+a{
+    text-decoration: none;
+    
+}
+.main-nav{
+    list-style:none;
+    display: flex;
+    float: right;
+    position: relative;
+    top: 28px;
+    left: -70px;
+    
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+header{
+    background-image: url(../img/background4.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:100vh;
+}
+.main-nav li{
+    margin-left:26px;
+}
+.main-nav.items{
+    position: absolute;
+    top: -41px;
+    right: 21px;
+}
+#myVideo {
+    position: fixed;
+    display: none;
+    
+    
+
+  }
+.content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
